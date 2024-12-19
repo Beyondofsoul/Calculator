@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <fieldset id="container">
+          <input type="text" id="display" readonly />
+          <form name="calculator" id="calculator">
+            <div id="buttons">
+              <button class="digits" type="button">7</button>
+              <button class="digits" type="button">8</button>
+              <button class="digits" type="button">9</button>
+              <button class="mathButtons" type="button" value="+">+</button>
+              <br />
+              <button class="digits" type="button">4</button>
+              <button class="digits" type="button">5</button>
+              <button class="digits" type="button">6</button>
+              <button class="mathButtons" class="equals" type="button" value="-">-</button>
+              <br />
+              <button class="digits" type="button">1</button>
+              <button class="digits" type="button">2</button>
+              <button class="digits" type="button">3</button>
+              <button class="mathButtons" type="button">*</button>
+              <br />
+              <button id="clearButton" class="clear" type="button">C</button>
+              <button class="digits" type="button">0</button>
+              <button class="equals" type="button">=</button>
+              <button class="mathButtons" type="button">/</button>
+              <br />
+              <button class="mathButtons" type="button">%</button>
+              <button class="decimal" type="button">.</button>
+              <button class="deleteLast" type="button"><</button>
+            </div>
+          </form>
+        </fieldset>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  background: url(https://live.staticflickr.com/8159/28418275310_ebce163d9d_b.jpg);
+  background-color: #424242;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+#container {
+  width: 200px;
+  margin: 20px auto;
+}
+#display {
+  height: 25px;
+  margin-bottom: 20px;
+  max-width: 200px;
+
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+.digits {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: 2px;
+}
+.mathButtons {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: 2px;
+}
+.clear {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: 2px;
+}
+.equals {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: 2px;
+}
+.deleteLast {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: 2px;
+}
+.decimal {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: 2px;
+}
+.button:hover {
+  background-color: brown;
+  transition: 0.3s;
+}
